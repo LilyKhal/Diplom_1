@@ -4,9 +4,7 @@ import org.junit.runners.Parameterized;
 import praktikum.Bun;
 import praktikum.Burger;
 import praktikum.Ingredient;
-
 import java.util.List;
-
 import static org.junit.Assert.assertEquals;
 import static praktikum.IngredientType.FILLING;
 import static praktikum.IngredientType.SAUCE;
