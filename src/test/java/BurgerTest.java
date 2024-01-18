@@ -7,7 +7,6 @@ import org.mockito.junit.MockitoJUnitRunner;
 import praktikum.Bun;
 import praktikum.Burger;
 import praktikum.Ingredient;
-import praktikum.IngredientType;
 
 import static org.junit.Assert.*;
 
@@ -28,8 +27,6 @@ public class BurgerTest {
         Mockito.when(bun.getName()).thenReturn("Test bun");
         burger.setBuns(bun);
         assertEquals(burger.bun.getName(), "Test bun");
-        // System.out.println(burger.getReceipt());
-        // assertTrue(burger.getReceipt().contains("Test bun"));
     }
     @Test
     public void addIngredientTest(){
